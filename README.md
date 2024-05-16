@@ -1,6 +1,14 @@
 # IAbout
 Repositório para o projeto IAbout, que visa gerar um texto automático para seção "Sobre" do LinkedIn
 
+## Sumário
++ []()
++ []()
++ []()
++ []()
++ []()
++ []()
+
 ## Introdução
 A seção "Sobre" do LinkedIn é uma das mais importantes no preenchimento do perfil, pois resume o que você é, o que faz, os seus propósitos e como entrar em contato contigo. 
 Além disso, esse resumo colabora para a pontuação do atributo "Estabelecer sua marca profissional", do SSI (Social Selling Index). Como nem todo mundo sabe o que escrever nessa seção do perfil, desenvolvi uma maneira de facilitar esse trabalho por meio da IA do Gemini, do Google.
@@ -46,6 +54,17 @@ pip install -q -U google-generativeai
 Para facilitar o uso dessa ferramenta, implantei o repositório numa interface [Streamlit](https://iabout.streamlit.app/)
 
 ![Screenshot - 2024-05-15T221743 919](https://github.com/marioluciofjr/iabout/assets/105465306/d44d6ed8-2b2a-4584-ac73-38b32be30fa5)
+
+## Licença
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Desenvolvedor
+
+Mário Lúcio
+> 💻 [Site](https://prazocerto.me)
+> 
+> 🔗 [LinkedIn](https://linkedin.com/in/marioluciofjr)
 
 
 

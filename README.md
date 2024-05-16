@@ -2,12 +2,12 @@
 Repositório para o projeto IAbout, que visa gerar um texto automático para seção "Sobre" do LinkedIn
 
 ## Sumário
-+ []()
-+ []()
-+ []()
-+ []()
-+ []()
-+ []()
++ [Introdução](https://github.com/marioluciofjr/iabout/tree/main?tab=readme-ov-file#introdu%C3%A7%C3%A3o)
++ [Instalação](https://github.com/marioluciofjr/iabout/tree/main?tab=readme-ov-file#instala%C3%A7%C3%A3o)
++ [Como gerar sua API Key](https://github.com/marioluciofjr/iabout/tree/main?tab=readme-ov-file#como-gerar-sua-api-key)
++ [Utilização](https://github.com/marioluciofjr/iabout/tree/main?tab=readme-ov-file#utiliza%C3%A7%C3%A3o)
++ [Licença](https://github.com/marioluciofjr/iabout/tree/main?tab=readme-ov-file#licen%C3%A7a)
++ [Desenvolvedor](https://github.com/marioluciofjr/iabout/tree/main?tab=readme-ov-file#desenvolvedor)
 
 ## Introdução
 A seção "Sobre" do LinkedIn é uma das mais importantes no preenchimento do perfil, pois resume o que você é, o que faz, os seus propósitos e como entrar em contato contigo. 

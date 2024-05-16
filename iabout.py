@@ -6,7 +6,7 @@ from IPython.display import Markdown
 st.title("IAbout: gerador de texto para a seção 'Sobre' do LinkedIn")
 
 # Configuração da API Key
-api_key = st.text_input("Insira sua API Key e aperte ENTER | Para gerar uma API Key, confira o read.me do repositório no GitHub", type="password")
+api_key = st.text_input("Insira sua API Key e aperte *ENTER* | Como gerar sua API Key: https://github.com/marioluciofjr/iabout/tree/main?tab=readme-ov-file#como-gerar-sua-api-key", type="password")
 
 # Configuração do modelo
 if api_key:
@@ -27,10 +27,10 @@ if api_key:
                                       system_instruction="Você atuará como uma pessoa especialista em recrutamento e seleção, bem como configuração de perfis no LinkedIn.")
     
     # Input para a formação
-    formacao = st.text_input("Qual é sua formação acadêmica? # graduação, pós ou cursos complementares que quiser citar")
+    formacao = st.text_input("Qual é sua formação acadêmica?  // graduação, pós ou cursos complementares que quiser citar")
 
     # Input para o trabalho
-    trabalho = st.text_input("O que você faz profissionalmente? # conte sobre o eu trabalho ou realizações profissionais")
+    trabalho = st.text_input("O que você faz profissionalmente?  // conte sobre o eu trabalho ou realizações profissionais")
 
     # Input para os propósitos
     propositos = {
@@ -49,13 +49,13 @@ if api_key:
     propositos_selecionados = st.multiselect("Selecione três propósitos de estar no LinkedIn", list(propositos.values()), max_selections=3)
 
     # Input para os hobbies
-    hobbies = st.text_input("Quais são os seus hobbies? # essa parte é para humanizar o seu texto")
+    hobbies = st.text_input("Quais são os seus hobbies?  // essa parte é para humanizar o seu texto")
 
     # Input para o orgulho
-    orgulho = st.text_input("Qual é o seu orgulho pessoal ou profissional? # é algo que pode ressaltar seus valores pessoais, algo que te marcou/marca")
+    orgulho = st.text_input("Qual é o seu orgulho pessoal ou profissional?  // é algo que pode ressaltar seus valores pessoais, algo que te marcou/marca")
 
     # Input para o contato
-    contatos = st.text_input("Qual é o seu contato? # para a pessoa querer te conhecer melhor")
+    contatos = st.text_input("Qual é o seu contato?  // para a pessoa querer te conhecer melhor")
 
     # Input para as palavras-chave
     palavras_chave = st.text_input("Quais são as palavras-chave que você quer utilizar no texto?")

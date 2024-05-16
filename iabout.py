@@ -6,7 +6,7 @@ from IPython.display import Markdown
 st.title("IAbout: gerador de texto para a seção 'Sobre' do LinkedIn")
 
 # Configuração da API Key
-api_key = st.text_input("Insira sua API Key | Para gerar uma API Key, confira o read.me do repositório no GitHub", type="password")
+api_key = st.text_input("Insira sua API Key e aperte ENTER | Para gerar uma API Key, confira o read.me do repositório no GitHub", type="password")
 
 # Configuração do modelo
 if api_key:
